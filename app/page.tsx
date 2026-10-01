@@ -1,8 +1,21 @@
-export default function Home() {
-  return (
-    <main style={{ padding: '40px', fontFamily: 'sans-serif', textAlign: 'center' }}>
-      <h1>Restaurant Financial Analyzer</h1>
-      <p>MVP is initializing successfully...</p>
-    </main>
-  );
+{
+  "name": "restaurant-saas",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "next": "14.2.0",
+    "react": "^18",
+    "react-dom": "^18"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "typescript": "^5"
+  }
 }
